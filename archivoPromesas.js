@@ -8,6 +8,7 @@ const context = async() =>{
         await fs.promises.appendFile('./archivoPromesa.txt', 'Nuevo ingreso');
         const newContent= await fs.promises.readFile('./archivoPromesa.txt','utf-8');
         console.log(newContent);
+        await fs.promises.unlink('./archivoPromesa.txt');
     }catch (error){
         console.log(error);
     }
