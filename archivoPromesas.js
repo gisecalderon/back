@@ -9,7 +9,7 @@ const context = async() =>{
         const newContent= await fs.promises.readFile('./archivoPromesa.txt','utf-8');
         console.log(newContent);
         await fs.promises.unlink('./archivoPromesa.txt');
-    }catch (error){
+    } catch (error){
         console.log(error);
     }
 }

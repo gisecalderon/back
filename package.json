@@ -16,6 +16,6 @@
   "bugs": {
     "url": "https://github.com/gisecalderon/back/issues"
   },
-  "homepage": "https://github.com/gisecalderon/back#readme"
+  "homepage": "https://github.com/gisecalderon/back#readme",
   "type": "module"
 }

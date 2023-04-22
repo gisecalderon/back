@@ -14,8 +14,8 @@ fs.writeFile('./productosCallback.json', JSON.stringify(productos),(error)=>{
         if(error){
             console.log(error);
             return;
-        }
-        console.log(content);
+        },
+        console.log(content),
         fs.appendFile('./productosCallback.json','a', (error)=>{
             if(error){
                 console.log(error);
